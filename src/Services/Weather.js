@@ -69,7 +69,7 @@ const FormatToLocalTime = (secs, zone, format = "cccc, dd LLL yyyy'  Time: 'hh:m
 }
 
 
-const IconUrl = (code) =>`http://openweathermap.org/img/wn/${code}@2x.png`
+const IconUrl = (code) =>`https://openweathermap.org/img/wn/${code}@2x.png`
 
 export default FormattedData;
 
